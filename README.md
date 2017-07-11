@@ -13,7 +13,7 @@ A powerful GUI platform to make your API development faster and easier, from bui
 ## Importing the Postman collection from GitHub
 Postman collections can be imported in under a minute.
 1. Open Postman
-2. Click the Import button at the top left of the screen.
+2. Click the Import button at the top left of the screen
 3. Click the Import From Link button
 4. Paste the following url
     * https://raw.githubusercontent.com/twilio/wireless-postman-collection/master/Twilio%20Programmable%20Wireless.postman_collection.json
@@ -31,9 +31,9 @@ You can find the AccountSid in the [Console](https://www.twilio.com/console/) da
 You can find the Auth Token in the [Console](https://www.twilio.com/console/) dashboard hidden behind a bunch of dots. Click on these dots to reveal your AuthToken. Click on the lock icon to hide it again.
 
 ### Create a Postman Environment
-1. Click the gear icon in the upper right corner of Postman and select “Manage Environments”. 
-2. Click the Add button to create a new environment.
-3. Enter **Twilio API Credentials** in the **Environment Name** input field.
+1. Click the gear icon in the upper right corner of Postman and select **Manage Environments**
+2. Click the Add button to create a new environment
+3. Enter **Twilio API Credentials** in the **Environment Name** input field
 4. Enter **AccountSid** in the key column of a new row
 5. Enter your AccountSid in the value column
 6. Enter **AuthToken** in the key column of a new row
