@@ -15,7 +15,7 @@ Postman collections can be imported in under a minute.
 1. Open Postman
 2. Click the Import button at the top left of the screen
 3. Click the Import From Link button
-4. Paste the following url
+4. Paste the following url into the input field:
     * https://raw.githubusercontent.com/twilio/wireless-postman-collection/master/Twilio%20Programmable%20Wireless.postman_collection.json
 5. Click the Import button
 
@@ -38,7 +38,9 @@ You can find the Auth Token in the [Console](https://www.twilio.com/console/) da
 5. Enter your AccountSid in the value column
 6. Enter **AuthToken** in the key column of a new row
 7. Enter your AuthToken in the value column
-8. Click **Add**
+8. Enter **token** in the key column of a new row
+9. Do not enter a value for token
+10. Click **Add**
 
 ![Postman Import](screenshots/environment-credentials.png)
 
