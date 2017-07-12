@@ -11,7 +11,7 @@
 			"name": "Create Command (Binary)",
 			"event": [
 				{
-					"listen": "test",
+					"listen": "prerequest",
 					"script": {
 						"type": "text/javascript",
 						"exec": [
@@ -63,7 +63,7 @@
 			"name": "Create Command (Text)",
 			"event": [
 				{
-					"listen": "test",
+					"listen": "prerequest",
 					"script": {
 						"type": "text/javascript",
 						"exec": [
@@ -110,7 +110,7 @@
 			"name": "Retrieve Command Resource",
 			"event": [
 				{
-					"listen": "test",
+					"listen": "prerequest",
 					"script": {
 						"type": "text/javascript",
 						"exec": [
@@ -152,7 +152,7 @@
 			"name": "Retrieve All Commands",
 			"event": [
 				{
-					"listen": "test",
+					"listen": "prerequest",
 					"script": {
 						"type": "text/javascript",
 						"exec": [
@@ -194,7 +194,7 @@
 			"name": "Retrieve SIM Usage",
 			"event": [
 				{
-					"listen": "test",
+					"listen": "prerequest",
 					"script": {
 						"type": "text/javascript",
 						"exec": [
@@ -236,7 +236,7 @@
 			"name": "Retrieve Rate Plan Instance",
 			"event": [
 				{
-					"listen": "test",
+					"listen": "prerequest",
 					"script": {
 						"type": "text/javascript",
 						"exec": [
@@ -278,7 +278,7 @@
 			"name": "Retrieve All Rate Plans",
 			"event": [
 				{
-					"listen": "test",
+					"listen": "prerequest",
 					"script": {
 						"type": "text/javascript",
 						"exec": [
@@ -320,7 +320,7 @@
 			"name": "Delete Rate Plan",
 			"event": [
 				{
-					"listen": "test",
+					"listen": "prerequest",
 					"script": {
 						"type": "text/javascript",
 						"exec": [
@@ -353,7 +353,7 @@
 			"name": "Create Rate Plan",
 			"event": [
 				{
-					"listen": "test",
+					"listen": "prerequest",
 					"script": {
 						"type": "text/javascript",
 						"exec": [
@@ -368,15 +368,6 @@
 				}
 			],
 			"request": {
-				"auth": {
-					"type": "basic",
-					"basic": {
-						"username": "",
-						"password": "",
-						"saveHelperData": true,
-						"showPassword": false
-					}
-				},
 				"url": "https://wireless.twilio.com/v1/RatePlans",
 				"method": "POST",
 				"header": [
